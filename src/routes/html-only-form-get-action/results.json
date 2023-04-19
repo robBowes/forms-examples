@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Jerry Seinfeld",
+        "age": 68,
+        "birth_city": "Brooklyn, New York, USA"
+    },
+    {
+        "name": "Eddie Murphy",
+        "age": 61,
+        "birth_city": "Brooklyn, New York, USA"
+    },
+    {
+        "name": "Dave Chappelle",
+        "age": 49,
+        "birth_city": "Washington, D.C., USA"
+    },
+    {
+        "name": "Chris Rock",
+        "age": 57,
+        "birth_city": "Andrews, South Carolina, USA"
+    },
+    {
+        "name": "Ellen DeGeneres",
+        "age": 65,
+        "birth_city": "Metairie, Louisiana, USA"
+    },
+    {
+        "name": "Bill Burr",
+        "age": 54,
+        "birth_city": "Canton, Massachusetts, USA"
+    },
+    {
+        "name": "Louis C.K.",
+        "age": 55,
+        "birth_city": "Washington, D.C., USA"
+    },
+    {
+        "name": "Kevin Hart",
+        "age": 43,
+        "birth_city": "Philadelphia, Pennsylvania, USA"
+    },
+    {
+        "name": "Ricky Gervais",
+        "age": 61,
+        "birth_city": "Reading, Berkshire, England"
+    },
+    {
+        "name": "Amy Schumer",
+        "age": 41,
+        "birth_city": "Manhattan, New York, USA"
+    },
+    {
+        "name": "Sarah Silverman",
+        "age": 52,
+        "birth_city": "Bedford, New Hampshire, USA"
+    },
+    {
+        "name": "Trevor Noah",
+        "age": 39,
+        "birth_city": "Johannesburg, Gauteng, South Africa"
+    },
+    {
+        "name": "John Mulaney",
+        "age": 40,
+        "birth_city": "Chicago, Illinois, USA"
+    },
+    {
+        "name": "Jim Gaffigan",
+        "age": 56,
+        "birth_city": "Chesterton, Indiana, USA"
+    },
+    {
+        "name": "Aziz Ansari",
+        "age": 40,
+        "birth_city": "Columbia, South Carolina, USA"
+    },
+    {
+        "name": "Bill Maher",
+        "age": 67,
+        "birth_city": "New York City, New York, USA"
+    },
+    {
+        "name": "Russell Peters",
+        "age": 52,
+        "birth_city": "Toronto, Ontario, Canada"
+    },
+    {
+        "name": "Hannibal Buress",
+        "age": 39,
+        "birth_city": "Chicago, Illinois, USA"
+    },
+    {
+        "name": "Gabriel Iglesias",
+        "age": 46,
+        "birth_city": "San Diego, California, USA"
+    },
+    {
+        "name": "Wanda Sykes",
+        "age": 59,
+        "birth_city": "Portsmouth, Virginia, USA"
+    },
+    {
+        "name": "Bo Burnham",
+        "age": 32,
+        "birth_city": "Hamilton, Massachusetts, USA"
+    },
+    {
+        "name": "Marc Maron",
+        "age": 59,
+        "birth_city": "Jersey City, New Jersey, USA"
+    },
+    {
+        "name": "Ali Wong",
+        "age": 40,
+        "birth_city": "San Francisco, California, USA"
+    },
+    {
+        "name": "Tom Segura",
+        "age": 43,
+        "birth_city": "Cincinnati, Ohio, USA"
+    },
+    {
+        "name": "Iliza Shlesinger",
+        "age": 39,
+        "birth_city": "Manhattan, New York, USA"
+    }
+]
