@@ -6,6 +6,9 @@
 		<a href="/html-only-form">HTML-only form</a>
 	</li>
 	<li>
+		<a href="/enhanced-form">Enhanced form</a>
+	</li>
+	<li>
 		<a href="/html-only-form-array">HTML-only form array</a>
 	</li>
 	<li>

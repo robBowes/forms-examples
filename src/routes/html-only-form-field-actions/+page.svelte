@@ -1,9 +1,11 @@
 <script lang="ts">
+	import { enhance } from '$app/forms';
+
 	export let data;
 	export let form;
 </script>
 
-<form action="?/name" method="post">
+<form action="?/anything" method="post" use:enhance>
 	<table>
 		<thead>
 			<tr>
@@ -33,5 +35,4 @@
 			{/each}
 		</tbody>
 	</table>
-	<input type="submit" />
 </form>

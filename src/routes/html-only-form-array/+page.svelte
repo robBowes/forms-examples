@@ -7,7 +7,7 @@
 		<div>
 			<label>
 				<span>Name {i + 1}</span>
-				<input type="text" name="family.{i}" />
+				<input type="text" name="family.{i}.name" />
 			</label>
 		</div>
 	{/each}

@@ -38,8 +38,6 @@
 		<input type="checkbox" name="showDeleted" />
 		Show deleted
 	</label>
-
-	<input type="submit" />
 </form>
 
 <pre>{JSON.stringify(form?.fields || data.fields, null, 2)}</pre>

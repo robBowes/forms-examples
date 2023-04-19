@@ -1,10 +1,12 @@
 <script lang="ts">
+	import { enhance } from '$app/forms';
+
 	export let data;
 </script>
 
-<form action="?" method="get">
+<form method="get" use:enhance data-sveltekit-keepfocus>
 	<fieldset>
-		<input type="search" name="search" />
+		<input type="search" name="search" value={data.fields.search} />
 		<label
 			>Status
 			<select name="filter">
