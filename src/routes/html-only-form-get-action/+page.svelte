@@ -1,18 +1,18 @@
 <script lang="ts">
-	import { enhance } from '$app/forms';
-
 	export let data;
+
+	let formElement: HTMLFormElement;
 </script>
 
-<form method="get" use:enhance data-sveltekit-keepfocus>
+<form data-sveltekit-keepfocus data-sveltekit-replacestate bind:this={formElement}>
 	<fieldset>
-		<input type="search" name="search" value={data.fields.search} />
+		<input type="search" name="search" value={data.fields?.search || ''} on:input={() => formElement.requestSubmit()} />
 		<label
-			>Status
-			<select name="filter">
-				<option value="all">All</option>
-				<option value="active">Active</option>
-				<option value="completed">Completed</option>
+			>Minimum Age
+			<select name="age" on:change={() => formElement.requestSubmit()}>
+				<option value="40">&gt; 40</option>
+				<option value="50">&gt; 50</option>
+				<option value="60">&gt; 60</option>
 			</select>
 		</label>
 	</fieldset>
@@ -25,6 +25,25 @@
 </form>
 
 <pre>{JSON.stringify(data.fields, null, 2)}</pre>
+
+<table>
+	<thead>
+		<tr>
+			<td>Name</td>
+			<td>Age</td>
+			<td>Birth place</td>
+		</tr>
+	</thead>
+	<tbody>
+		{#each data.searchResults as result}
+			<tr>
+				<td>{result.name}</td>
+				<td>{result.age}</td>
+				<td>{result.birth_city}</td>
+			</tr>
+		{/each}
+	</tbody>
+</table>
 
 <style>
 	fieldset {
